@@ -1,45 +1,50 @@
 <!-- =========================================================================
-     ADNAN AHMAD | SENIOR DEVSECOPS ENGINEER & CLOUD SOLUTIONS ARCHITECT
-     ENTERPRISE GITHUB PROFILE README.MD
+     ADNAN AHMAD | PRINCIPAL / SENIOR DEVSECOPS ENGINEER & CLOUD ARCHITECT
+     GITHUB PROFILE MASTER README.MD
 ========================================================================= -->
 
 <div align="center">
 
-<!-- Animated Header Wave Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,14,24,30,42&height=220&section=header&text=Adnan%20Ahmad&fontSize=42&fontAlignY=38&desc=Senior%20DevSecOps%20Engineer%20%7C%20Enterprise%20Cloud%20Architect&descFontSize=20&descAlignY=60&animation=fadeIn" width="100%" alt="Adnan Ahmad Header Banner" />
+<!-- Animated Header Wave Banner with Outfit Font & Twinkling Animation -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24,32,45&height=240&section=header&text=Adnan%20Ahmad&fontSize=48&fontAlignY=36&desc=Senior%20DevSecOps%20Engineer%20%E2%80%A2%20Enterprise%20Cloud%20Architect&descFontSize=20&descAlignY=58&animation=twinkling&font=Outfit" width="100%" alt="Adnan Ahmad Header Banner" />
 
-<!-- Dynamic Animated Typing SVG -->
+<!-- Dynamic Animated Typing SVG #1: Senior Professional Titles (Space Grotesk Font) -->
 <a href="https://github.com/aahmad39">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=38BDF8&center=true&vCenter=true&random=false&width=800&lines=Senior+DevSecOps+Engineer+%26+Cloud+Solutions+Architect;Enterprise+Azure+Landing+Zone+(ALZ)+%26+IaC+Specialist;Large-Scale+Migration+Lead+(100%2B+Enterprise+Workloads);Zero-Trust+Security%2C+Governance+%26+FinOps+Strategist;Engineering+Delivery+Lead+%7C+Pre-Sales+%26+Vendor+Management" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=24&pause=1000&color=00D2FF&center=true&vCenter=true&random=false&width=820&lines=Senior+DevSecOps+Engineer+%26+Cloud+Solutions+Architect;Enterprise+Azure+Landing+Zone+(ALZ)+%26+IaC+Specialist;Large-Scale+Cloud+Migration+Lead+(100%2B+Workloads);Zero-Trust+Security%2C+Governance+%26+FinOps+Strategist;Technical+Delivery+Lead+%E2%80%A2+Pre-Sales+%26+Vendor+Management" alt="Typing SVG 1" />
 </a>
 
+<br/>
+
+<!-- Dynamic Animated Typing SVG #2: Real-Time Focus & Core Deliverables (JetBrains Mono) -->
+<a href="https://github.com/aahmad39">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&pause=1500&color=A78BFA&center=true&vCenter=true&random=false&width=780&lines=%E2%96%B6+Architecting+Scalable%2C+Governed+Azure+Landing+Zones+(CAF);%E2%96%B6+Automating+Zero-Drift+Terraform+Enterprise+Pipelines;%E2%96%B6+Orchestrating+100%2B+Application+Migrations+(Dev+%E2%9E%94+UAT+%E2%9E%94+Prod);%E2%96%B6+Enforcing+Shift-Left+Security%2C+CIS+Benchmarks+%26+FinOps" alt="Typing SVG 2" />
+</a>
+
+<br/>
+
+<!-- Executive Impact Metric Badges (Curated Palette) -->
 <p align="center">
-  <b>Enterprise Cloud Architecture • Infrastructure as Code (Terraform) • DevSecOps CI/CD • FinOps • Large-Scale Migrations</b>
+  <img src="https://img.shields.io/badge/%F0%9F%9A%80_Enterprise_Migrations-100%2B_Multi--Tier_Apps-0284C7?style=for-the-badge&labelColor=0A192F&logoColor=38BDF8" alt="100+ Migrations" />
+  <img src="https://img.shields.io/badge/%E2%9A%A1_Architecture_SLA-99.99%25_Availability-0D9488?style=for-the-badge&labelColor=0A192F&logoColor=2DD4BF" alt="99.99% Availability" />
+  <img src="https://img.shields.io/badge/%F0%9F%92%B0_FinOps_Savings-30%25%2B_Cost_Reduction-D97706?style=for-the-badge&labelColor=0A192F&logoColor=FBBF24" alt="30%+ Savings" />
+  <img src="https://img.shields.io/badge/%F0%9F%94%A7_IaC_Automation-100%25_Zero--Drift_Terraform-7C3AED?style=for-the-badge&labelColor=0A192F&logoColor=C084FC" alt="Zero-Drift IaC" />
 </p>
 
-<!-- Key Architectural Impact Metrics -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Workloads_Migrated-100%2B_Multi--Tier_Apps-0284C7?style=for-the-badge&logo=azureartifacts&logoColor=white" alt="100+ Workloads Migrated" />
-  <img src="https://img.shields.io/badge/Architecture_SLA-99.99%25_Availability-10B981?style=for-the-badge&logo=speedtest&logoColor=white" alt="99.99% Availability" />
-  <img src="https://img.shields.io/badge/FinOps_Impact-30%25%2B_Cost_Reduction-F59E0B?style=for-the-badge&logo=databricks&logoColor=white" alt="30%+ Cost Reduction" />
-  <img src="https://img.shields.io/badge/Automation-100%25_IaC_Automated-8B5CF6?style=for-the-badge&logo=terraform&logoColor=white" alt="100% IaC Automated" />
-</p>
-
-<!-- Quick Navigation Bar -->
+<!-- Quick Navigation Bar with Gradient Accent Pills -->
 <table align="center" border="0">
   <tr>
-    <td><a href="#-1-enterprise-architectural-pillars"><b>🏛️ Architecture</b></a></td>
-    <td><a href="#-2-tenant--management-group-hierarchy-caf"><b>🏢 Landing Zone</b></a></td>
-    <td><a href="#-3-hub-and-spoke-networking--hybrid-connectivity"><b>🌐 Networking</b></a></td>
-    <td><a href="#-4-multi-layer-defense-in-depth-security"><b>🛡️ Security</b></a></td>
-    <td><a href="#-5-terraform-landing-zone-automation--devsecops-pipelines"><b>⚙️ IaC & DevSecOps</b></a></td>
-    <td><a href="#-6-100-enterprise-applications-migration-framework"><b>🚀 100+ Migration</b></a></td>
-    <td><a href="#-7-finops-cloud-economics--bcdr"><b>💰 FinOps & DR</b></a></td>
-    <td><a href="#-8-vendor-management-delivery-governance--leadership"><b>🤝 Leadership</b></a></td>
+    <td align="center"><a href="#-1-enterprise-architectural-pillars"><img src="https://img.shields.io/badge/🏛️_Architecture-0078D4?style=flat-square&logoColor=white" alt="Architecture" /></a></td>
+    <td align="center"><a href="#-2-tenant--management-group-hierarchy-caf"><img src="https://img.shields.io/badge/🏢_Landing_Zone-1E293B?style=flat-square&logoColor=white" alt="Landing Zone" /></a></td>
+    <td align="center"><a href="#-3-hub-and-spoke-networking--hybrid-connectivity"><img src="https://img.shields.io/badge/🌐_Networking-0284C7?style=flat-square&logoColor=white" alt="Networking" /></a></td>
+    <td align="center"><a href="#-4-multi-layer-defense-in-depth-security"><img src="https://img.shields.io/badge/🛡️_Security-E11D48?style=flat-square&logoColor=white" alt="Security" /></a></td>
+    <td align="center"><a href="#-5-terraform-landing-zone-automation--devsecops-pipelines"><img src="https://img.shields.io/badge/⚙️_IaC_%26_CI/CD-7C3AED?style=flat-square&logoColor=white" alt="IaC" /></a></td>
+    <td align="center"><a href="#-6-100-enterprise-applications-migration-framework"><img src="https://img.shields.io/badge/🚀_100+_Migration-EA580C?style=flat-square&logoColor=white" alt="Migration" /></a></td>
+    <td align="center"><a href="#-7-finops-cloud-economics--bcdr"><img src="https://img.shields.io/badge/💰_FinOps_%26_DR-059669?style=flat-square&logoColor=white" alt="FinOps" /></a></td>
+    <td align="center"><a href="#-8-vendor-management-delivery-governance--leadership"><img src="https://img.shields.io/badge/🤝_Leadership-4F46E5?style=flat-square&logoColor=white" alt="Leadership" /></a></td>
   </tr>
 </table>
 
-<!-- Contact & Social Badges -->
+<!-- Direct Contact & Social Links -->
 <p align="center">
   <a href="mailto:adnanhuntp@gmail.com">
     <img src="https://img.shields.io/badge/Email-adnanhuntp%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
@@ -50,22 +55,25 @@
   <a href="https://github.com/aahmad39">
     <img src="https://img.shields.io/badge/GitHub-aahmad39-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <img src="https://img.shields.io/badge/Status-Open_to_Senior_Architect_Roles-success?style=flat-square" alt="Status" />
+  <img src="https://komarev.com/ghpvc/?username=aahmad39&label=PROFILE+VIEWS&style=flat-square&color=0078D4" alt="Profile Views" />
 </p>
 
 </div>
 
+<!-- Animated Gradient Divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,24,32,45&height=4&section=header" width="100%" alt="Divider" />
+
 ---
 
-### 💼 Executive Profile
+### 💼 Executive Summary & Architecture Ethos
 
-Accomplished **Senior DevSecOps Engineer & Enterprise Cloud Solutions Architect** with extensive experience architecting, securing, and operating mission-critical enterprise environments on **Microsoft Azure**. 
+Accomplished **Senior DevSecOps Engineer & Enterprise Cloud Solutions Architect** with deep expertise in designing, automating, and safeguarding mission-critical multi-cloud ecosystems on **Microsoft Azure**.
 
-Recognized for leading end-to-end **large-scale migrations of 100+ applications** across Dev, UAT, and Production environments from legacy on-premises datacenters and multi-subscription cloud infrastructures. Expert in designing **Enterprise Azure Landing Zones (ALZ)** based on the Microsoft Cloud Adoption Framework (CAF), implementing shift-left DevSecOps automation via Terraform and Azure DevOps, driving rigorous FinOps cost optimization, ensuring high availability with disaster recovery (BCDR), and leading cross-functional engineering teams, pre-sales initiatives, and vendor delivery.
+Proven track record of architecting and orchestrating **end-to-end migrations of 100+ multi-tier enterprise workloads** across Development, UAT, and Production from on-premises datacenters and disparate cloud subscriptions into robust **Azure Landing Zones (ALZ)**. Recognized for driving shift-left security (DevSecOps), zero-drift Infrastructure as Code (Terraform), FinOps cloud economics, high availability (BCDR), and leading cross-functional engineering teams, technical pre-sales, and vendor delivery governance.
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│  CORE ARCHITECTURE PRINCIPLES:                                                                                   │
+│  CORE ARCHITECTURE ATTRIBUTES:                                                                                   │
 │  ✔ Scalable   ✔ Robust   ✔ Secure   ✔ Reliable   ✔ Portable   ✔ Governed   ✔ High-Avail   ✔ Cost-Optimized       │
 │  ✔ Automated  ✔ Backed Up   ✔ End-to-End Monitored   ✔ Audit & Regulatory Compliant (CIS / ISO / SOC2)          │
 └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
@@ -75,47 +83,51 @@ Recognized for leading end-to-end **large-scale migrations of 100+ applications*
 
 ### 🏛️ 1. Enterprise Architectural Pillars
 
-<table width="100%">
+<table width="100%" border="0" cellpadding="8">
   <tr>
-    <td width="50%" valign="top" bgcolor="#0f172a">
+    <td width="50%" valign="top" bgcolor="#0A1120" style="border-radius: 8px; border: 1px solid #1E293B;">
       <div align="center">
-        <h3>🏗️ Infra Design & Implementation</h3>
+        <img src="https://img.shields.io/badge/%F0%9F%8F%97%EF%B8%8F_INFRASTRUCTURE-DESIGN_%26_IMPLEMENTATION-0284C7?style=for-the-badge&labelColor=07101E" alt="Infra Design" />
       </div>
+      <br/>
       <ul>
-        <li><b>Cloud Architecture & Landing Zones:</b> Multi-subscription Azure Landing Zones aligned with Microsoft CAF.</li>
+        <li><b>Cloud Architecture & Landing Zones:</b> CAF-compliant, scalable multi-subscription foundational topology.</li>
         <li><b>DevSecOps & Infrastructure as Code:</b> Terraform Enterprise, reusable modules, automated drift detection.</li>
-        <li><b>Hybrid Hub-and-Spoke Networking:</b> Azure ExpressRoute, S2S VPN, Central Firewall, Private Endpoints.</li>
-        <li><b>Enterprise Resiliency & BCDR:</b> Multi-region Disaster Recovery, VMSS across Availability Zones, strict RTO/RPO.</li>
+        <li><b>Hybrid & Hub-and-Spoke Networking:</b> Azure ExpressRoute, S2S VPN, Central Firewall, Private Endpoints.</li>
+        <li><b>Resiliency & High Availability:</b> Multi-region Disaster Recovery, VMSS across Availability Zones, strict RTO/RPO.</li>
       </ul>
     </td>
-    <td width="50%" valign="top" bgcolor="#0f172a">
+    <td width="50%" valign="top" bgcolor="#0A1120" style="border-radius: 8px; border: 1px solid #1E293B;">
       <div align="center">
-        <h3>💻 Application System Design & Modernization</h3>
+        <img src="https://img.shields.io/badge/%F0%9F%92%BB_APPLICATION-SYSTEM_DESIGN_%26_MODERNIZATION-7C3AED?style=for-the-badge&labelColor=07101E" alt="App Modernization" />
       </div>
+      <br/>
       <ul>
-        <li><b>100+ Enterprise Migration:</b> 6-R framework across Dev, UAT, and Production with minimal downtime.</li>
-        <li><b>Containerization & Microservices:</b> Azure Kubernetes Service (AKS), Docker, and Helm deployments.</li>
-        <li><b>Automated Middleware Setup:</b> Custom data and cloud-init bootstrap scripts for VM compute workloads.</li>
-        <li><b>Zero-Downtime Deployment:</b> Trunk-based branching, Blue/Green & Canary rollouts, automated rollbacks.</li>
+        <li><b>100+ Workload Migration:</b> 6-R migration strategy across Dev, UAT, and Production environments.</li>
+        <li><b>Containerization & Microservices:</b> Azure Kubernetes Service (AKS), Docker, and Helm packaging.</li>
+        <li><b>Automated Middleware Bootstrapping:</b> Custom data and cloud-init scripts for runtime VM configurations.</li>
+        <li><b>Zero-Downtime Releases:</b> Trunk-based branching, Blue/Green & Canary rollouts, automated rollbacks.</li>
       </ul>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top" bgcolor="#0f172a">
+    <td width="50%" valign="top" bgcolor="#0A1120" style="border-radius: 8px; border: 1px solid #1E293B;">
       <div align="center">
-        <h3>🛡️ Governance, Security & FinOps</h3>
+        <img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_GOVERNANCE-SECURITY_%26_FINOPS-0D9488?style=for-the-badge&labelColor=07101E" alt="Governance & FinOps" />
       </div>
+      <br/>
       <ul>
         <li><b>Enterprise Identity & RBAC:</b> Microsoft Entra ID, PIM (Privileged Identity Management), Conditional Access.</li>
         <li><b>Policy as Code:</b> Azure Policy Initiatives, automated remediation (DeployIfNotExists), exemption auditing.</li>
-        <li><b>Continuous Security:</b> Microsoft Defender for Cloud, Sentinel SIEM, vulnerability scanning & hardening.</li>
-        <li><b>FinOps Economics:</b> Idle resource reclamation, compute right-sizing, Reserved Instances & Savings Plans.</li>
+        <li><b>Threat Detection & SIEM:</b> Microsoft Defender for Cloud, Sentinel, vulnerability scanning & OS hardening.</li>
+        <li><b>FinOps Optimization:</b> Idle resource reclamation, compute right-sizing, Reserved Instances & Savings Plans.</li>
       </ul>
     </td>
-    <td width="50%" valign="top" bgcolor="#0f172a">
+    <td width="50%" valign="top" bgcolor="#0A1120" style="border-radius: 8px; border: 1px solid #1E293B;">
       <div align="center">
-        <h3>🤝 Delivery Leadership & Vendor Management</h3>
+        <img src="https://img.shields.io/badge/%F0%9F%A4%9D_DELIVERY-LEADERSHIP_%26_VENDOR_MGMT-EA580C?style=for-the-badge&labelColor=07101E" alt="Leadership & Vendor" />
       </div>
+      <br/>
       <ul>
         <li><b>Pre-Sales & Proposals:</b> Statements of Work (SOW), RFP, RFI, Architecture POCs, and Cost Estimations.</li>
         <li><b>Vendor Oversight:</b> Technical Task Assignment, Technical Evaluation Matrix, milestone-based sign-offs.</li>
@@ -126,12 +138,18 @@ Recognized for leading end-to-end **large-scale migrations of 100+ applications*
   </tr>
 </table>
 
+<!-- Animated Gradient Divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,24,32,45&height=3&section=header" width="100%" alt="Divider" />
+
 ---
 
 ### 🏢 2. Tenant & Management Group Hierarchy (CAF)
 
-> **Cloud Adoption Framework (CAF) Strategy:** Structuring enterprise cloud governance through continuous lifecycle disciplines:  
-> **Plan ➔ Ready ➔ Adopt ➔ Govern ➔ Secure ➔ Manage**
+<div align="center">
+  <img src="https://img.shields.io/badge/STRATEGY-CAF:_PLAN_%E2%9E%94_READY_%E2%9E%94_ADOPT_%E2%9E%94_GOVERN_%E2%9E%94_SECURE_%E2%9E%94_MANAGE-0284C7?style=for-the-badge&labelColor=0A192F" alt="CAF Strategy" />
+</div>
+
+<br/>
 
 ```mermaid
 graph TD
@@ -154,32 +172,35 @@ graph TD
     NonProdMG --> DevSub["Subscription: Development Workloads"]
     NonProdMG --> UATSub["Subscription: UAT / Staging Workloads"]
 
-    classDef rootStyle fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#fff;
-    classDef mgStyle fill:#1e293b,stroke:#818cf8,stroke-width:2px,color:#fff;
-    classDef subStyle fill:#1e1b4b,stroke:#c084fc,stroke-width:1px,color:#fff;
+    classDef rootStyle fill:#0A1120,stroke:#00D2FF,stroke-width:2px,color:#fff;
+    classDef mgStyle fill:#0F172A,stroke:#818CF8,stroke-width:2px,color:#fff;
+    classDef subStyle fill:#1E1B4B,stroke:#C084FC,stroke-width:1px,color:#fff;
     class Root rootStyle;
     class PlatformMG,WorkloadsMG,SandboxMG,DecomMG,ProdMG,NonProdMG mgStyle;
     class ConnSub,IdentitySub,MgmtSub,AppSub1,AppSub2,DevSub,UATSub subStyle;
 ```
 
-#### 📌 Implementation Details & Best Practices:
-* **Microsoft Entra ID (Azure AD) Tenant Architecture:**
-  - Strict tenant boundaries separating corporate identities, service principals, and workload identities.
-  - **Break-Glass Emergency Accounts:** Two cloud-only emergency accounts excluded from Conditional Access with automated 24/7 SIEM alerts.
-  - **Privileged Identity Management (PIM):** Just-In-Time (JIT) role elevation with mandatory business justification, ticketing ID, and approval workflows.
+#### 📌 Architectural Standards & Implementation Highlights:
+* **Microsoft Entra ID (Azure AD) Enterprise Boundaries:**
+  - Unified tenant directory segregating human identities, service principals, and workload identities.
+  - **Break-Glass Emergency Accounts:** Cloud-only emergency accounts excluded from Conditional Access policies with automated SIEM alerting on sign-in.
+  - **Privileged Identity Management (PIM):** Just-in-time role activation requiring approval, ticketing reference, and multi-factor authentication.
 * **Management Group Structure & Subscription Boundaries:**
-  - Dedicated `platform-mg` isolating foundational shared services (Network, Identity, Management) from application environments.
-  - Strict boundary segregation between `production-mg` and `non-production-mg` to prevent cross-environment blast radiuses.
-  - Isolated `sandbox-mg` for R&D with enforced budget caps, and `decommissioned-mg` with zero active privileges for offboarding subscriptions.
+  - Dedicated `platform-mg` containing shared foundational services (`connectivity`, `identity`, `management`) decoupled from applications.
+  - Rigid isolation between `production-mg` and `non-production-mg` preventing accidental cross-talk and containing security blast radiuses.
+  - Disposable `sandbox-mg` for developer experimentation with budget kill-switches, and `decommissioned-mg` with revoked access for offboarding.
 * **Azure Policy & Initiatives Assignments:**
-  - **Mandatory Guardrails:** Enforcing resource tags (`Environment`, `CostCenter`, `Owner`, `ApplicationID`), restricting allowable deployment regions, and denying public IP assignments to compute.
-  - **Regulatory Compliance:** Applied CIS Microsoft Azure Foundations Benchmark and ISO 27001 initiatives across all workload subscriptions.
-  - **Automated Remediation:** `DeployIfNotExists` policies auto-enrolling virtual machines into Log Analytics and Microsoft Defender for Cloud.
+  - Mandatory guardrails: Enforcing required tags (`Environment`, `CostCenter`, `Owner`, `ApplicationID`), restricting approved regions, and blocking public IP assignments to VMs.
+  - Enterprise initiatives: CIS Microsoft Azure Foundations Benchmark and ISO 27001 initiatives enforced across all subscriptions.
+  - Automated compliance remediation: `DeployIfNotExists` policies auto-provisioning monitoring agents and Defender extensions.
 * **Policy Exemptions Governance:**
-  - Formulated strict policy exemption lifecycle: written business justification, security architect review, defined expiration date, and automated audit logging.
-* **Automated Subscription Vending & Lifecycle SOPs:**
-  - IaC-driven subscription vending machine automating subscription creation, network peering, baseline policy assignments, and RBAC bindings.
-  - Documented Standard Operating Procedures (SOPs) for subscription onboarding, credential rotation, and clean decommissioning.
+  - Strict policy exemption workflow requiring documented business justification, risk assessment, defined expiration dates, and automated audit trails.
+* **Subscription Vending Machine & Lifecycle SOPs:**
+  - Terraform-driven automated subscription vending machine provisioning subscriptions with baseline networking, RBAC, and policy bindings.
+  - Standard Operating Procedures (SOPs) for onboarding, offboarding, and secret rotation.
+
+<!-- Animated Gradient Divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,24,32,45&height=3&section=header" width="100%" alt="Divider" />
 
 ---
 
@@ -217,78 +238,84 @@ flowchart LR
     CentralHub <== VNet Peering ==> SpokeProd
 ```
 
-#### 📌 Implementation Details & Networking Standards:
+#### 📌 Networking Standards & Traffic Engineering:
 * **IP Address Management (IPAM) & On-Premises CIDR Assessment:**
-  - Rigorous pre-migration assessment of on-premises routing tables and IP spaces to eliminate overlapping CIDRs.
-  - Scalable enterprise CIDR allocation strategy ensuring sufficient address space for multi-region expansion and AKS container networking (Azure CNI).
+  - Exhaustive pre-migration audit of on-premises IP spaces to guarantee non-overlapping CIDR block allocations.
+  - Scalable subnet planning engineered to handle multi-region active-active deployments and AKS container IP consumption (Azure CNI).
 * **Centralized Traffic Inspection & Controlled Egress:**
-  - Centralized Azure Firewall Premium deployed in the Hub VNet serving as the default egress inspect-point for all inter-spoke and outbound internet traffic.
-  - Strict User Defined Routes (UDR) with `0.0.0.0/0` next-hop pointing to the Azure Firewall private IP on all spoke subnets.
-* **Private PaaS Isolation (Zero Public IPs):**
-  - All PaaS services (Azure Key Vault, Azure SQL, Blob Storage, App Services) exposed exclusively via **Azure Private Endpoints**.
-  - Centralized Azure Private DNS Zones linked across all spoke VNets with automated forwarders for seamless private name resolution.
-* **Hybrid Connectivity & Gateway Transit:**
-  - Redundant hybrid topology: Dedicated Azure ExpressRoute circuit backed up by an automated Site-to-Site (S2S) VPN Gateway failover.
-  - Gateway Transit enabled on Hub-to-Spoke VNet peering to allow all spoke workloads to securely access on-premises data without individual gateways.
+  - Hub VNet hosting Azure Firewall Premium performing TLS termination, threat intelligence filtering, and Intrusion Detection and Prevention (IDPS).
+  - User Defined Routes (UDR) attached to all spoke subnets forcing `0.0.0.0/0` outbound traffic and inter-spoke traffic through the central firewall.
+* **Private PaaS Exposure (Zero Public IPs):**
+  - PaaS resources (Azure Key Vault, Azure SQL, Blob Storage, App Services) exposed exclusively via **Azure Private Endpoints**.
+  - Centralized Azure Private DNS Resolver hosted in the Hub VNet linked across all spokes with conditional forwarders.
+* **Hybrid Redundancy & Gateway Transit:**
+  - Primary connectivity over dedicated Azure ExpressRoute backed up by auto-failover Site-to-Site (S2S) VPN Gateways.
+  - Gateway Transit configured on Hub-to-Spoke peerings allowing all spoke workloads to access on-premises resources without redundant gateways.
+
+<!-- Animated Gradient Divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,24,32,45&height=3&section=header" width="100%" alt="Divider" />
 
 ---
 
 ### 🛡️ 4. Multi-Layer Defense-in-Depth Security
 
-<table width="100%">
+<table width="100%" border="0" cellpadding="8">
   <tr>
-    <td width="25%" align="center" bgcolor="#1e293b">
-      <h4>🔑 1. Identity Level</h4>
+    <td width="25%" align="center" bgcolor="#0A1120" style="border-radius: 6px; border: 1px solid #1E293B;">
+      <img src="https://img.shields.io/badge/1._IDENTITY-0284C7?style=for-the-badge&labelColor=07101E" alt="Identity" />
     </td>
-    <td width="25%" align="center" bgcolor="#1e293b">
-      <h4>🌐 2. Networking Level</h4>
+    <td width="25%" align="center" bgcolor="#0A1120" style="border-radius: 6px; border: 1px solid #1E293B;">
+      <img src="https://img.shields.io/badge/2._NETWORKING-7C3AED?style=for-the-badge&labelColor=07101E" alt="Networking" />
     </td>
-    <td width="25%" align="center" bgcolor="#1e293b">
-      <h4>📜 3. Governance Level</h4>
+    <td width="25%" align="center" bgcolor="#0A1120" style="border-radius: 6px; border: 1px solid #1E293B;">
+      <img src="https://img.shields.io/badge/3._GOVERNANCE-0D9488?style=for-the-badge&labelColor=07101E" alt="Governance" />
     </td>
-    <td width="25%" align="center" bgcolor="#1e293b">
-      <h4>💻 4. Compute Level</h4>
+    <td width="25%" align="center" bgcolor="#0A1120" style="border-radius: 6px; border: 1px solid #1E293B;">
+      <img src="https://img.shields.io/badge/4._COMPUTE-E11D48?style=for-the-badge&labelColor=07101E" alt="Compute" />
     </td>
   </tr>
   <tr>
-    <td valign="top">
+    <td valign="top" bgcolor="#0A1120" style="border: 1px solid #1E293B;">
       <ul>
-        <li><b>Microsoft Entra ID:</b> Centralized identity governance & federation.</li>
-        <li><b>PIM (Privileged Identity):</b> Just-in-Time elevation with approval workflow.</li>
-        <li><b>Conditional Access:</b> Device compliance, location & risk-based MFA.</li>
-        <li><b>Service Principals:</b> Managed Identities eliminating hardcoded secrets.</li>
-        <li><b>Break-Glass Accounts:</b> Cloud-only emergency accounts with SIEM alerts.</li>
+        <li><b>Microsoft Entra ID:</b> Centralized federated IAM.</li>
+        <li><b>PIM:</b> Just-in-Time elevation with approval logs.</li>
+        <li><b>Conditional Access:</b> Device & risk-based MFA.</li>
+        <li><b>Workload Identity:</b> Zero hardcoded credentials.</li>
+        <li><b>Break-Glass:</b> Cloud-only emergency accounts.</li>
       </ul>
     </td>
-    <td valign="top">
+    <td valign="top" bgcolor="#0A1120" style="border: 1px solid #1E293B;">
       <ul>
-        <li><b>Hub-Spoke Isolation:</b> VNet peering with controlled transit.</li>
-        <li><b>Azure Firewall Premium:</b> Deep packet inspection, IDPS & TLS inspect.</li>
-        <li><b>Micro-Segmentation:</b> Network Security Groups (NSGs) & ASGs.</li>
-        <li><b>Private Endpoints:</b> Elimination of public IPs for PaaS resources.</li>
-        <li><b>DDoS Protection:</b> Azure DDoS Network Protection enabled.</li>
+        <li><b>Hub-Spoke Isolation:</b> Controlled VNet transit.</li>
+        <li><b>Firewall Premium:</b> IDPS & TLS inspection.</li>
+        <li><b>Segmentation:</b> NSGs & Application Security Groups.</li>
+        <li><b>Private Endpoints:</b> Zero public IPs for PaaS.</li>
+        <li><b>DDoS Protection:</b> Azure DDoS Network Protection.</li>
       </ul>
     </td>
-    <td valign="top">
+    <td valign="top" bgcolor="#0A1120" style="border: 1px solid #1E293B;">
       <ul>
-        <li><b>Azure Policy Guardrails:</b> Automated audit & deny rules.</li>
-        <li><b>Compliance Benchmarks:</b> CIS Azure v2.0, ISO 27001, SOC2.</li>
-        <li><b>Policy Exemptions:</b> Justified, time-bound, audited approvals.</li>
-        <li><b>DeployIfNotExists:</b> Automated agent & telemetry remediation.</li>
-        <li><b>Resource Locks:</b> ReadOnly & CanNotDelete locks on core infra.</li>
+        <li><b>Policy Guardrails:</b> Automated audit & deny rules.</li>
+        <li><b>CIS Benchmark:</b> CIS Azure Foundations v2.0.</li>
+        <li><b>Policy Exemptions:</b> Justified, time-bound approvals.</li>
+        <li><b>DeployIfNotExists:</b> Auto telemetry remediation.</li>
+        <li><b>Resource Locks:</b> ReadOnly & CanNotDelete locks.</li>
       </ul>
     </td>
-    <td valign="top">
+    <td valign="top" bgcolor="#0A1120" style="border: 1px solid #1E293B;">
       <ul>
-        <li><b>Hardened Golden Images:</b> CIS Level 1 & 2 baseline VM images.</li>
-        <li><b>Defender for Cloud:</b> Defender for Servers, Containers, & Storage.</li>
-        <li><b>Automated Patching:</b> Azure Update Manager scheduled patching.</li>
-        <li><b>Vulnerability Scanning:</b> Trivy, Qualys & container image scans.</li>
-        <li><b>Disk Encryption:</b> Customer-Managed Keys (CMK) at rest.</li>
+        <li><b>CIS Golden Images:</b> Hardened VM OS templates.</li>
+        <li><b>Defender for Cloud:</b> Defender for Servers & AKS.</li>
+        <li><b>Patch Management:</b> Azure Update Manager.</li>
+        <li><b>Vulnerability Scans:</b> Trivy & container scanning.</li>
+        <li><b>Disk Encryption:</b> Customer-Managed Keys (CMK).</li>
       </ul>
     </td>
   </tr>
 </table>
+
+<!-- Animated Gradient Divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,24,32,45&height=3&section=header" width="100%" alt="Divider" />
 
 ---
 
@@ -326,15 +353,15 @@ sequenceDiagram
 
 #### 📌 Implementation Standards & Pipeline Engineering:
 * **Terraform Remote State Governance:**
-  - Remote state files stored in dedicated private Azure Storage Accounts with Blob versioning, soft-delete, and state locking enabled.
-  - End-to-end encryption: TLS 1.3 in-transit and Customer-Managed Keys (CMK) at-rest.
-  - State file access strictly restricted via Azure RBAC and Managed Identities using least-privilege principles (zero shared keys).
-* **Reusable Modular Architecture:**
-  - Clean DRY (Don't Repeat Yourself) modular codebase with strict semantic versioning (`v1.x.x`).
+  - Remote state hosted in private Azure Storage Accounts with Blob versioning, soft-delete, and lease-based state locking.
+  - Encryption at rest using Customer-Managed Keys (CMK) and TLS 1.3 in-transit.
+  - Access controlled exclusively via Managed Identities and Azure RBAC (zero shared access keys).
+* **Modular Code Architecture:**
+  - DRY (Don't Repeat Yourself) modular codebase with strict semantic versioning (`v1.x.x`).
   - Standardized enterprise modules for VNets, Subnets, NSGs, Private Endpoints, Compute, and Azure Policy initiatives.
-* **Shift-Left Quality & Security Gates:**
-  - **Static Linting:** `tflint` with Azure ruleset, `terraform fmt -check`.
-  - **Secret Scanning:** `gitleaks` pre-commit hooks and pipeline blockers.
+* **Shift-Left Security & Cost Quality Gates:**
+  - **Linting & Formatting:** `tflint` with Azure rule-set, `terraform fmt -check`.
+  - **Secret Detection:** `gitleaks` pre-commit hooks and pipeline build blockers.
   - **Policy-as-Code:** `checkov` and `tfsec` static analysis verifying CIS benchmarks before merge.
   - **FinOps in CI:** Automated `infracost` analysis posting forecasted monthly cloud cost variance directly on every PR.
 * **Automated Drift Detection Pipelines:**
@@ -345,11 +372,18 @@ sequenceDiagram
   - **Modular Pipeline Templates:** Reusable YAML templates for `Validate & Test`, `Build`, `Security Scan`, `Deployment / Apply`, and `Automated Rollback`.
   - **Automated Middleware Bootstrapping:** Provisioning scripts (`custom_data` / `cloud-init`) baked into Terraform for automated runtime configuration and middleware installation.
 
+<!-- Animated Gradient Divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,24,32,45&height=3&section=header" width="100%" alt="Divider" />
+
 ---
 
 ### 🚀 6. 100+ Enterprise Applications Migration Framework
 
-> **Migration Context:** Large-scale enterprise migration of **100+ multi-tier applications** across **Dev, UAT, and Production** from legacy on-premises datacenters and disparate cloud subscriptions into governed Azure Landing Zones.
+<div align="center">
+  <img src="https://img.shields.io/badge/MIGRATION_SCALE-100%2B_ENTERPRISE_WORKLOADS_(DEV_%E2%9E%94_UAT_%E2%9E%94_PROD)-EA580C?style=for-the-badge&labelColor=0A192F" alt="100+ Migration Scale" />
+</div>
+
+<br/>
 
 ```mermaid
 flowchart TD
@@ -361,7 +395,7 @@ flowchart TD
 
     subgraph P2["Phase 2: Readiness & Landing Zone Foundation"]
         B1["Landing Zone Subscriptions & VNet Provisioning via IaC"]
-        B2["ExpressRoute Connectivity, UDR & Private Endpoints Verified"]
+        B2["ExpressRoute Connectivity, UDR & Private Endpoints Ready"]
         B3["Pre-Migration Sign-Off & Rollback Runbook Approval"]
     end
 
@@ -395,16 +429,20 @@ flowchart TD
 | **3. Post-Migration Checklist** | • Application functional validation and performance benchmark sign-off.<br>• Azure Monitor, Log Analytics, and Alert Action Groups active.<br>• Azure Backup vault policies assigned with verified recovery points.<br>• Security vulnerability scan passed with zero high/critical findings.<br>• Stakeholder cutover sign-off and transition to Hypercare support. | • Performance Benchmark Report<br>• Security Scan Certification<br>• Backup Compliance Certificate<br>• Stakeholder Acceptance Sign-Off |
 | **4. Cutover & Hypercare** | • 24/7 command center support during the initial 14-day hypercare period.<br>• Rapid issue triage and root cause analysis (RCA) documentation.<br>• Formal operational documentation handover to operations team via KT sessions. | • Hypercare Daily Incident Report<br>• RCA Documentation<br>• Operational Handover Certificate |
 
+<!-- Animated Gradient Divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,24,32,45&height=3&section=header" width="100%" alt="Divider" />
+
 ---
 
 ### 💰 7. FinOps, Cloud Economics & Resiliency (BCDR)
 
-<table width="100%">
+<table width="100%" border="0" cellpadding="8">
   <tr>
-    <td width="50%" valign="top" bgcolor="#0f172a">
+    <td width="50%" valign="top" bgcolor="#0A1120" style="border-radius: 8px; border: 1px solid #1E293B;">
       <div align="center">
-        <h3>💡 FinOps & Cost Optimization</h3>
+        <img src="https://img.shields.io/badge/%F0%9F%92%A1_FINOPS-COST_OPTIMIZATION-D97706?style=for-the-badge&labelColor=07101E" alt="FinOps" />
       </div>
+      <br/>
       <ul>
         <li><b>Idle Resource Reclamation:</b> Automated detection and decommission of unattached managed disks, orphaned public IPs, and unused NICs.</li>
         <li><b>Compute Right-Sizing:</b> Continuous performance profiling (CPU/RAM p95 utilization) to downsize oversized VMs.</li>
@@ -414,10 +452,11 @@ flowchart TD
         <li><b>Backup Retention Lifecycle:</b> Optimizing Azure Backup retention rules to eliminate redundant long-term storage costs.</li>
       </ul>
     </td>
-    <td width="50%" valign="top" bgcolor="#0f172a">
+    <td width="50%" valign="top" bgcolor="#0A1120" style="border-radius: 8px; border: 1px solid #1E293B;">
       <div align="center">
-        <h3>🛡️ High Availability, BCDR & Monitoring</h3>
+        <img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_RESILIENCY-HIGH_AVAILABILITY_%26_BCDR-0D9488?style=for-the-badge&labelColor=07101E" alt="BCDR" />
       </div>
+      <br/>
       <ul>
         <li><b>Storage Redundancy:</b> Implementation of <b>LRS</b> (Dev), <b>ZRS</b> (Zone-redundant for standard Prod), and <b>GRS</b> (Cross-region replication for critical databases).</li>
         <li><b>Compute High Availability:</b> Virtual Machine Scale Sets (<b>VMSS</b>) spanning across Azure Availability Zones with automated auto-scaling.</li>
@@ -428,6 +467,9 @@ flowchart TD
     </td>
   </tr>
 </table>
+
+<!-- Animated Gradient Divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,24,32,45&height=3&section=header" width="100%" alt="Divider" />
 
 ---
 
@@ -463,6 +505,9 @@ flowchart TD
   - Conducting senior-level technical interviews for DevOps, Cloud Architect, and SRE candidates.
   - Formulating upskilling roadmaps and conducting training workshops on Azure Landing Zones, Terraform, and DevSecOps.
 
+<!-- Animated Gradient Divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,24,32,45&height=3&section=header" width="100%" alt="Divider" />
+
 ---
 
 ### 🧰 Comprehensive Technical Toolchain
@@ -481,35 +526,51 @@ flowchart TD
 
 </div>
 
+<!-- Animated Gradient Divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,24,32,45&height=3&section=header" width="100%" alt="Divider" />
+
 ---
 
 ### 📊 Live GitHub Activity & Statistics
 
 <div align="center">
 
+<!-- GitHub Trophy Showcase -->
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=aahmad39&theme=tokyonight&no-frame=true&column=7&margin-w=6" alt="Adnan's Trophies" />
+</p>
+
 <table border="0" width="100%">
   <tr>
     <td align="center" width="50%">
       <a href="https://github.com/aahmad39">
-        <img src="https://github-readme-stats.vercel.app/api?username=aahmad39&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=94A3B8&icon_color=38BDF8" alt="Adnan's GitHub Stats" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=aahmad39&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0A1120&title_color=00D2FF&text_color=94A3B8&icon_color=00D2FF" alt="Adnan's GitHub Stats" width="100%" />
       </a>
     </td>
     <td align="center" width="50%">
       <a href="https://github.com/aahmad39">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=aahmad39&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=F59E0B&currStreakLabel=38BDF8" alt="Adnan's GitHub Streak" width="100%" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=aahmad39&theme=tokyonight&hide_border=true&background=0A1120&ring=00D2FF&fire=F59E0B&currStreakLabel=00D2FF" alt="Adnan's GitHub Streak" width="100%" />
       </a>
     </td>
   </tr>
   <tr>
     <td align="center" colspan="2">
       <a href="https://github.com/aahmad39">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aahmad39&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=94A3B8" alt="Top Languages" width="65%" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aahmad39&layout=compact&theme=tokyonight&hide_border=true&bg_color=0A1120&title_color=00D2FF&text_color=94A3B8" alt="Top Languages" width="65%" />
       </a>
     </td>
   </tr>
 </table>
 
+<!-- Interactive Contribution Activity Graph -->
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aahmad39&bg_color=0A1120&color=00D2FF&line=818CF8&point=F43F5E&area=true&hide_border=true" width="95%" alt="Activity Graph" />
+</p>
+
 </div>
+
+<!-- Animated Gradient Divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,24,32,45&height=3&section=header" width="100%" alt="Divider" />
 
 ---
 
@@ -525,6 +586,7 @@ Whether you're architecting an enterprise Azure Landing Zone, planning a 100+ wo
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,14,24,30,42&height=90&section=footer" width="100%" alt="Footer Banner" />
+<!-- Animated Footer Wave Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24,32,45&height=100&section=footer" width="100%" alt="Footer Banner" />
 
 </div>
