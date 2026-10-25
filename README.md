@@ -33,6 +33,7 @@
 <!-- Quick Navigation Bar with Gradient Accent Pills -->
 <table align="center" border="0">
   <tr>
+    <td align="center"><a href="#-featured-enterprise-repositories--architecture-projects"><img src="https://img.shields.io/badge/⭐_Featured_Projects-F59E0B?style=flat-square&logoColor=white" alt="Projects" /></a></td>
     <td align="center"><a href="#-1-enterprise-architectural-pillars"><img src="https://img.shields.io/badge/🏛️_Architecture-0078D4?style=flat-square&logoColor=white" alt="Architecture" /></a></td>
     <td align="center"><a href="#-2-tenant--management-group-hierarchy-caf"><img src="https://img.shields.io/badge/🏢_Landing_Zone-1E293B?style=flat-square&logoColor=white" alt="Landing Zone" /></a></td>
     <td align="center"><a href="#-3-hub-and-spoke-networking--hybrid-connectivity"><img src="https://img.shields.io/badge/🌐_Networking-0284C7?style=flat-square&logoColor=white" alt="Networking" /></a></td>
@@ -78,6 +79,60 @@ Proven track record of architecting and orchestrating **end-to-end migrations of
 │  ✔ Automated  ✔ Backed Up   ✔ End-to-End Monitored   ✔ Audit & Regulatory Compliant (CIS / ISO / SOC2)          │
 └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
+
+---
+
+### ⭐ Featured Enterprise Repositories & Architecture Projects
+
+<table width="100%" border="0" cellpadding="10">
+  <tr>
+    <td width="50%" valign="top" bgcolor="#0A1120" style="border-radius: 8px; border: 1px solid #0078D4;">
+      <a href="https://github.com/aahmad39/azure-enterprise-landing-zone">
+        <img src="https://img.shields.io/badge/Repository-azure--enterprise--landing--zone-0078D4?style=for-the-badge&logo=github&logoColor=white" alt="Azure Landing Zone Repo" />
+      </a>
+      <br/><br/>
+      <b>🏗️ Production-Grade Azure Landing Zone (ALZ) Framework</b><br/>
+      CAF-aligned Terraform Enterprise architecture featuring multi-subscription Management Groups hierarchy, Hub-and-Spoke hybrid networking, centralized Azure Firewall inspection, Private Endpoints, and modular environments (Dev, UAT, Prod).
+      <br/><br/>
+      <code>Terraform</code> • <code>AzureRM</code> • <code>CAF</code> • <code>Hub-Spoke</code> • <code>ExpressRoute</code> • <code>PIM</code>
+    </td>
+    <td width="50%" valign="top" bgcolor="#0A1120" style="border-radius: 8px; border: 1px solid #7C3AED;">
+      <a href="https://github.com/aahmad39/devsecops-pipeline-templates">
+        <img src="https://img.shields.io/badge/Repository-devsecops--pipeline--templates-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="DevSecOps Repo" />
+      </a>
+      <br/><br/>
+      <b>⚙️ Enterprise DevSecOps CI/CD Pipeline Templates</b><br/>
+      Modular multi-stage Azure DevOps YAML pipelines & GitHub Actions with Shift-Left security gates (TFLint, Checkov CIS Benchmark v2.0, Trivy CVE scanning, Gitleaks secret detection), Infracost PR forecasting, and automated Drift Detection.
+      <br/><br/>
+      <code>Azure DevOps</code> • <code>GitHub Actions</code> • <code>Checkov</code> • <code>Trivy</code> • <code>Infracost</code> • <code>Drift Detection</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" bgcolor="#0A1120" style="border-radius: 8px; border: 1px solid #EA580C;">
+      <a href="https://github.com/aahmad39/cloud-migration-framework-100-apps">
+        <img src="https://img.shields.io/badge/Repository-cloud--migration--framework--100--apps-EA580C?style=for-the-badge&logo=github&logoColor=white" alt="Migration Repo" />
+      </a>
+      <br/><br/>
+      <b>🚀 100+ Enterprise Applications Cloud Migration Framework</b><br/>
+      Comprehensive migration blueprint for 100+ multi-tier workloads across Dev, UAT, and Prod. Includes 6-R strategy matrix, CMDB discovery tools, wave phasing plans, hour-by-hour cutover runbooks, validation checklists, and 14-day Hypercare SOPs.
+      <br/><br/>
+      <code>Azure Migrate</code> • <code>6-R Strategy</code> • <code>Wave Planning</code> • <code>Cutover Runbooks</code> • <code>Hypercare</code>
+    </td>
+    <td width="50%" valign="top" bgcolor="#0A1120" style="border-radius: 8px; border: 1px solid #059669;">
+      <a href="https://github.com/aahmad39/azure-finops-cost-optimizer">
+        <img src="https://img.shields.io/badge/Repository-azure--finops--cost--optimizer-059669?style=for-the-badge&logo=github&logoColor=white" alt="FinOps Repo" />
+      </a>
+      <br/><br/>
+      <b>💰 Azure FinOps & Cloud Cost Optimization Automation Suite</b><br/>
+      Automated PowerShell and Python runbooks for reclaiming unattached managed disks with automatic snapshot backups, deleting orphaned Public IPs/NICs, scheduling non-prod VM start/stop routines (~65% compute savings), and Log Analytics ingestion capping.
+      <br/><br/>
+      <code>PowerShell</code> • <code>Python SDK</code> • <code>FinOps</code> • <code>Cost Optimization</code> • <code>Reserved Instances</code>
+    </td>
+  </tr>
+</table>
+
+<!-- Animated Gradient Divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,24,32,45&height=3&section=header" width="100%" alt="Divider" />
 
 ---
 
