@@ -380,54 +380,220 @@ sequenceDiagram
 ### 🚀 6. 100+ Enterprise Applications Migration Framework
 
 <div align="center">
-  <img src="https://img.shields.io/badge/MIGRATION_SCALE-100%2B_ENTERPRISE_WORKLOADS_(DEV_%E2%9E%94_UAT_%E2%9E%94_PROD)-EA580C?style=for-the-badge&labelColor=0A192F" alt="100+ Migration Scale" />
+  <img src="https://img.shields.io/badge/ENTERPRISE_SCENARIO-100%2B_APPLICATIONS_MIGRATION_(DEV_%E2%9E%94_UAT_%E2%9E%94_PROD)-EA580C?style=for-the-badge&labelColor=0A192F" alt="100+ Applications Migration" />
 </div>
+
+<br/>
+
+<!-- Executive Migration Problem Statement & Architecture Principles -->
+<table width="100%" border="0" cellpadding="8">
+  <tr>
+    <td bgcolor="#0A1120" style="border-radius: 8px; border: 1px solid #EA580C;">
+      <b>📋 Scenario & Scope:</b> End-to-end cloud migration of <b>100+ multi-tier enterprise applications</b> across <b>Development, UAT, and Production</b> environments from legacy On-Premises Datacenters and disparate cloud subscriptions into governed Azure Landing Zones.<br/>
+      <b>🎯 Target Architecture Attributes:</b> 
+      <code>Scalable</code> • <code>Robust</code> • <code>Secure</code> • <code>Reliable</code> • <code>Portable</code> • <code>Governed</code> • <code>Highly Available</code> • <code>Cost-Optimized</code> • <code>Backed Up</code> • <code>Monitored</code> • <code>Compliant</code>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
 ```mermaid
 flowchart TD
     subgraph P1["Phase 1: Discovery & Assessment"]
-        A1["Automated CMDB & Dependency Mapping (Azure Migrate)"]
-        A2["Application T-Shirt Sizing & Architecture Feasibility"]
-        A3["6R Strategy: Rehost • Replatform • Refactor • Retire • Retain • Repurchase"]
+        A1["Automated CMDB & Dependency Discovery\n(Azure Migrate / Network Mapping)"] --> A2["Application T-Shirt Sizing & Latency Profiling\n(Web, App, DB, Cache, Messaging)"]
+        A2 --> A3["6-R Strategy Classification\n(Rehost, Replatform, Refactor, Retire)"]
     end
 
-    subgraph P2["Phase 2: Readiness & Landing Zone Foundation"]
-        B1["Landing Zone Subscriptions & VNet Provisioning via IaC"]
-        B2["ExpressRoute Connectivity, UDR & Private Endpoints Ready"]
-        B3["Pre-Migration Sign-Off & Rollback Runbook Approval"]
+    subgraph P2["Phase 2: Landing Zone Readiness & Pilot"]
+        B1["IaC Landing Zone Subscription Provisioning\n(Tenant Hierarchy, Hub-Spoke, ExpressRoute)"] --> B2["Security Guardrails & Private Endpoints\n(Azure Policy Initiatives, PIM, NSGs)"]
+        B2 --> B3["Pre-Migration Sign-Off & Rollback Runbook\n(Architecture Review Board Approval)"]
     end
 
-    subgraph P3["Phase 3: Wave Planning & Non-Prod Migrations"]
-        C1["Wave 0: Pilot & Low-Risk Workloads"]
-        C2["Wave 1: Dev / Test Environment Migrations"]
-        C3["Wave 2: UAT Migrations & Performance Benchmarking"]
+    subgraph P3["Phase 3: Wave-Based Execution across Environments"]
+        W0["Wave 0: Pilot Validation\n(3-5 Low-Risk Workloads)"] --> W1["Wave 1: Non-Prod / Dev Workloads\n(35+ Applications)"]
+        W1 --> W2["Wave 2: UAT / Staging Environments\n(35+ Applications & Load Testing)"]
+        W2 --> W3["Wave 3: Mission-Critical Production Cutover\n(Batch Waves & Tier-1 Systems)"]
     end
 
-    subgraph P4["Phase 4: Production Cutover"]
-        D1["Continuous Block-Level Data Replication & Delta Sync"]
-        D2["Application Maintenance Window & Database Quiet Period"]
-        D3["DNS TTL Reduction & Global Traffic Cutover"]
+    subgraph P4["Phase 4: Cutover Execution & Maintenance Window"]
+        C1["Continuous Data Replication & Delta Sync\n(Azure Site Recovery / DB Log Shipping)"] --> C2["Application Quiet Period & Maintenance Banner\n(Database Transaction Freezing)"]
+        C2 --> C3["DNS Cutover & Global Traffic Switch\n(TTL Lowered to 300s ➔ Traffic Routing)"]
+        C3 --> C4["End-to-End Smoke Testing & Go/No-Go Gate\n(Functional Validation across All Tiers)"]
     end
 
-    subgraph P5["Phase 5: Post-Cutover & Hypercare"]
-        E1["24/7 Hypercare Command Center & Incident Triage"]
-        E2["Post-Migration Checklist Sign-Off & RACI Handover"]
-        E3["FinOps Sizing Audit & Log Ingestion Baseline Tuning"]
+    subgraph P5["Phase 5: Hypercare, FinOps & Operations Handover"]
+        H1["24/7 Command Center & Hypercare Support\n(14-Day Dedicated Engineering War Room)"] --> H2["Post-Migration Sign-Off & Security Certification\n(Vulnerability Scan & SLA Verification)"]
+        H2 --> H3["FinOps Sizing Audit & Log Tuning\n(Right-Sizing & Reserved Instances)"]
+        H3 --> H4["Operational Handover via RACI & KT Sessions\n(SOP Runbooks & Architecture Transfer)"]
     end
 
-    P1 ➔ P2 ➔ P3 ➔ P4 ➔ P5
+    A3 --> B1
+    B3 --> W0
+    W3 --> C1
+    C4 --> H1
+
+    classDef stageStyle fill:#0A1120,stroke:#EA580C,stroke-width:2px,color:#fff;
+    class P1,P2,P3,P4,P5 stageStyle;
 ```
 
-#### 📋 Enterprise Migration Checklists Matrix:
+#### 📊 1. 6-R Application Migration Strategy Matrix (100+ Workloads)
 
-| Migration Stage | Mandatory Tasks & Gate Criteria | Deliverables / Artifacts |
-| :--- | :--- | :--- |
-| **1. Pre-Migration Checklist** | • Inventory discovery complete; CMDB dependency mapping validated.<br>• Non-overlapping CIDR verified; ExpressRoute bandwidth stress-tested.<br>• Target Landing Zone subscriptions, policies, and Private Endpoints ready.<br>• Source database quiet period scheduled; source backup verified.<br>• Step-by-step rollback runbook drafted, tested, and approved. | • Architecture Blueprint<br>• T-Shirt Sizing Matrix<br>• Pre-Migration Sign-Off Document<br>• Tested Rollback Runbook |
-| **2. During-Migration Checklist** | • Delta data synchronization executed and integrity-verified.<br>• Compute services initiated and configured with custom-data bootstrap scripts.<br>• Firewall rules, NSG flows, and Private DNS resolution validated.<br>• DNS TTL lowered to 300s; DNS cutover executed.<br>• Health check smoke tests executed against all tiers (Web, App, DB). | • Cutover Execution Log<br>• Network Flow Verification Log<br>• Smoke Test Results<br>• Cutover Declaration |
-| **3. Post-Migration Checklist** | • Application functional validation and performance benchmark sign-off.<br>• Azure Monitor, Log Analytics, and Alert Action Groups active.<br>• Azure Backup vault policies assigned with verified recovery points.<br>• Security vulnerability scan passed with zero high/critical findings.<br>• Stakeholder cutover sign-off and transition to Hypercare support. | • Performance Benchmark Report<br>• Security Scan Certification<br>• Backup Compliance Certificate<br>• Stakeholder Acceptance Sign-Off |
-| **4. Cutover & Hypercare** | • 24/7 command center support during the initial 14-day hypercare period.<br>• Rapid issue triage and root cause analysis (RCA) documentation.<br>• Formal operational documentation handover to operations team via KT sessions. | • Hypercare Daily Incident Report<br>• RCA Documentation<br>• Operational Handover Certificate |
+<table width="100%" border="0" cellpadding="8">
+  <thead>
+    <tr bgcolor="#0A1120">
+      <th align="left" style="color: #00D2FF;">6-R Strategy</th>
+      <th align="left" style="color: #00D2FF;">Target Workload Criteria</th>
+      <th align="left" style="color: #00D2FF;">Azure Target Architecture</th>
+      <th align="left" style="color: #00D2FF;">Tooling & Automation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Rehost</b><br/><i>(Lift & Shift)</i></td>
+      <td>Legacy COTS applications, vendor software, OS-level dependencies, strict timeline requirements.</td>
+      <td>Azure IaaS Virtual Machines, Availability Zones, Azure Disk Encryption, Private Endpoints.</td>
+      <td>Azure Migrate, Azure Site Recovery (ASR), Cloud-Init, Custom Data.</td>
+    </tr>
+    <tr>
+      <td><b>Replatform</b><br/><i>(Lift, Modernize & Shift)</i></td>
+      <td>Multi-tier web applications, standard relational databases, backend APIs.</td>
+      <td>Azure App Services (PaaS), Azure SQL Managed Instances, Azure Database for PostgreSQL.</td>
+      <td>Azure Database Migration Service (DMS), App Service Migration Assistant, Terraform.</td>
+    </tr>
+    <tr>
+      <td><b>Refactor</b><br/><i>(Cloud-Native)</i></td>
+      <td>High-throughput microservices, stateless APIs, event-driven integrations.</td>
+      <td>Azure Kubernetes Service (AKS), Azure Container Apps, Event Grid, Service Bus.</td>
+      <td>Docker, Helm, Azure DevOps YAML Pipelines, Trivy, ArgoCD.</td>
+    </tr>
+    <tr>
+      <td><b>Retire / Retain</b><br/><i>(Rationalize)</i></td>
+      <td>Redundant shadow IT, duplicate reporting databases, end-of-life internal tools.</td>
+      <td>Decommissioning or archiving to Azure Cold/Archive Storage with immutable WORM policy.</td>
+      <td>CMDB Rationalization, Azure Storage Lifecycle Management policies.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 🌊 2. Multi-Subscription Wave Phasing (Dev ➔ UAT ➔ Prod)
+
+<table width="100%" border="0" cellpadding="8">
+  <thead>
+    <tr bgcolor="#0A1120">
+      <th align="left" style="color: #00D2FF;">Migration Wave</th>
+      <th align="left" style="color: #00D2FF;">Environment & Target Subscriptions</th>
+      <th align="left" style="color: #00D2FF;">Scope & Workload Complexity</th>
+      <th align="left" style="color: #00D2FF;">Key Objectives & Gate Criteria</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Wave 0: Pilot Validation</b></td>
+      <td><code>sub-dev-sandbox</code></td>
+      <td>3–5 low-risk internal applications.</td>
+      <td>Validate network routing, ExpressRoute throughput, Azure Firewall rules, and Entra ID RBAC.</td>
+    </tr>
+    <tr>
+      <td><b>Wave 1: Non-Prod / Dev</b></td>
+      <td><code>sub-workloads-dev</code></td>
+      <td>35+ Development workloads & databases.</td>
+      <td>Developer connectivity verification, automated CI/CD pipeline deployment, and middleware custom-data validation.</td>
+    </tr>
+    <tr>
+      <td><b>Wave 2: UAT / Staging</b></td>
+      <td><code>sub-workloads-uat</code></td>
+      <td>35+ Staging environments with full integrations.</td>
+      <td>Business user acceptance testing, end-to-end integration testing with on-prem systems, and performance load benchmarking.</td>
+    </tr>
+    <tr>
+      <td><b>Wave 3: Production Cutover</b></td>
+      <td><code>sub-workloads-prod</code></td>
+      <td>Remaining mission-critical tier-1 applications.</td>
+      <td>Maintenance window execution, database delta synchronization, DNS TTL cutover, and 24/7 Hypercare initiation.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 📋 3. Enterprise Migration Checklists Matrix:
+
+<table width="100%" border="0" cellpadding="8">
+  <thead>
+    <tr bgcolor="#0A1120">
+      <th align="left" style="color: #00D2FF;">Migration Stage</th>
+      <th align="left" style="color: #00D2FF;">Mandatory Execution Tasks & Verification Gates</th>
+      <th align="left" style="color: #00D2FF;">Deliverables / Governance Artifacts</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>1. Pre-Migration Checklist</b><br/><i>(Discovery & Readiness)</i></td>
+      <td>
+        • <b>Inventory Discovery:</b> Automated CMDB extraction and port dependency mapping via Azure Migrate.<br/>
+        • <b>Networking:</b> Non-overlapping CIDR verified; ExpressRoute bandwidth stress-tested; UDR routing tables ready.<br/>
+        • <b>Target Landing Zone:</b> Target subscriptions provisioned via Terraform with enforced Azure Policy initiatives.<br/>
+        • <b>PaaS Security:</b> Private Endpoints and Private DNS zone records configured for Key Vault, DBs, and Storage.<br/>
+        • <b>Change Approval:</b> Maintenance window scheduled; rollback runbook drafted, tested, and signed off by CAB.
+      </td>
+      <td>
+        • Application Architecture Blueprints<br/>
+        • T-Shirt Sizing & Dependency Matrix<br/>
+        • Pre-Migration Sign-Off Certificate<br/>
+        • Approved Rollback Runbook
+      </td>
+    </tr>
+    <tr>
+      <td><b>2. During-Migration Checklist</b><br/><i>(Cutover Runbook Timeline)</i></td>
+      <td>
+        • <b>T-24h:</b> Lower DNS TTL to 300 seconds; execute final pre-cutover delta data replication.<br/>
+        • <b>T-4h:</b> Display maintenance banner; initiate database quiet period and freeze incoming transactions.<br/>
+        • <b>T-0:</b> Execute final database delta sync; verify block-level data consistency.<br/>
+        • <b>T+30m:</b> Boot Azure compute workloads with automated cloud-init / custom-data middleware scripts.<br/>
+        • <b>T+1h:</b> Cutover DNS records to Azure Private/Public endpoints; validate NSG and Firewall flows.<br/>
+        • <b>T+2h:</b> Execute end-to-end technical smoke tests across Web, App, and Database tiers.<br/>
+        • <b>T+3h:</b> Business and QA acceptance testing; formal Go/No-Go decision gate reached.
+      </td>
+      <td>
+        • Hour-by-Hour Cutover Runbook Log<br/>
+        • Database Delta Verification Proof<br/>
+        • Smoke Test Results Matrix<br/>
+        • Formal Go-Live Declaration
+      </td>
+    </tr>
+    <tr>
+      <td><b>3. Post-Migration Checklist</b><br/><i>(Validation & Stabilization)</i></td>
+      <td>
+        • <b>Health & Performance:</b> Application response times and error rates verified against on-prem historical baselines.<br/>
+        • <b>Observability:</b> Azure Monitor, Log Analytics workspace data ingestion, and Alert Action Groups verified active.<br/>
+        • <b>Data Protection:</b> Azure Backup vault protection policies assigned; first on-demand cloud recovery point created.<br/>
+        • <b>Security Compliance:</b> Microsoft Defender for Cloud and Trivy container vulnerability scans passed with zero critical CVEs.<br/>
+        • <b>Sign-Off:</b> Application owner, security architect, and business lead sign off on production handover.
+      </td>
+      <td>
+        • Performance Benchmark Report<br/>
+        • Backup Compliance Certificate<br/>
+        • Defender Security Scan Audit<br/>
+        • Stakeholder Acceptance Sign-Off
+      </td>
+    </tr>
+    <tr>
+      <td><b>4. Cutover & Hypercare</b><br/><i>(14-Day Command Center)</i></td>
+      <td>
+        • <b>24/7 Command Center:</b> Dedicated engineering war room for immediate P1/P2 incident triage.<br/>
+        • <b>Daily Standups:</b> Executive status updates on system stability, latency, and business transaction throughput.<br/>
+        • <b>RCA Protocol:</b> Root Cause Analysis (RCA) documented for any post-cutover anomaly within 24 hours.<br/>
+        • <b>FinOps Tuning:</b> Post-migration compute right-sizing review based on real production telemetry; 1-yr/3-yr RIs scheduled.<br/>
+        • <b>BAU Handover:</b> Formal transition to BAU Operations team with updated SOPs, runbooks, and RACI governance.
+      </td>
+      <td>
+        • Hypercare Incident Triage Log<br/>
+        • Root Cause Analysis (RCA) Docs<br/>
+        • FinOps Right-Sizing Audit Report<br/>
+        • Formal Operations Handover Sign-Off
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- Animated Gradient Divider -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,24,32,45&height=3&section=header" width="100%" alt="Divider" />
